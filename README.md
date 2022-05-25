@@ -1,4 +1,4 @@
-# pawim_project
+# Thunder Delivery
 Projekt aplikacji zarządzania paczkami kurierskimi. Stworzony w ramach przedmiotu Programowanie aplikacji webowych i mobilnych.
 
 KM1
