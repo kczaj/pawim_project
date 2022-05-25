@@ -1,5 +1,5 @@
 # pawim_project
-Projekt aplikacji zarządzania paczkami kurierskimi
+Projekt aplikacji zarządzania paczkami kurierskimi. Stworzony w ramach przedmiotu Programowanie aplikacji webowych i mobilnych.
 
 KM1
 Obrazek na stronie głównej i czcionka zostały wybrane z opensource'owych bibliotek (https://undraw.co/ i https://fonts.google.com/)
