@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #24252A;
+    color: white;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    height: 13vh;
+}
+nav{
+    flex: 1;
+}
+.logo{
+
+    flex: 3;
+}
+.nav-button{
+    flex: 0.5;
+}
+.credentials-button{
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    height: 75%;
+}
+.menu{
+    display: flex;  
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menu-home, .menu-register{
+    color: white;
+    text-decoration: none;
+}
+a{
+    list-style: none; 
+}
+h2, h3{
+    color:  #0B7FD3;
+}
+section{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.first-text{
+    flex: 1;
+}
+.margin{
+    flex: 1;
+}
+.sign-up-button{
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    height: 35%;
+}
+
+.first-para{
+    background-color: lightblue;
+}
+.second-para{
+    background-color: white;
+    color: black;
+}
+.second-text{
+    flex:4;
+    display: grid;
+}
+.delivery-img{
+    flex: 1;
+}
+.delivery-img-img{
+    width: 100%;
+    height: auto;
+}
+.colored-table{
+    justify-content: center;
+    text-align: center;
+}
+.colored-table th{
+    background-color: #0B7FD3;
+    color: white;
+}
+.colored-table tr:nth-child(even){
+    background-color: #0B7FD3;
+    opacity: 50%;
+}
+.colored-table tr:nth-child(odd){
+    background-color: lightblue;
+}
+.adnotation{
+    font-size: small;
+}
+.sign-up-button:hover{
+    opacity: 70%;
+}
+.credentials-button:hover{
+    opacity: 70%;
+}
+.menu-home:hover{
+    color:#0B7FD3;
+}
+.menu-register:hover{
+    color:#0B7FD3;
+}
+.colored-table tr:hover{
+    color:white;
+    background-color: #24252A;
+}
+.footer-div {
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}

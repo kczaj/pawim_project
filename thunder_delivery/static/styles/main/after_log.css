@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #24252A;
+    color: white;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    height: 13vh;
+}
+
+nav {
+    text-align: right;
+    margin-right: 15px;
+    flex: 1;
+}
+
+th {
+    color: #0B7FD3;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.logo {
+    flex: 3;
+}
+
+.nav-button {
+    flex: 0.5;
+}
+
+.credentials-button {
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    height: 75%;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.margin {
+    flex: 1;
+}
+
+.package-list {
+    flex: 3;
+}
+
+.new-package-button {
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    height: 35%;
+    flex: 1;
+}
+
+.package-display {
+    margin-top: 2vh;
+}
+
+.table-div {
+    text-align: left;
+    display: grid;
+    margin-top: 2vh;
+}
+
+.download-button {
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.delete-button {
+    background: #ff2424;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first-para {
+    background-color: lightblue;
+}
+
+.credentials-button:hover, .new-package-button:hover, .download-button:hover {
+    opacity: 70%;
+}
+
+.nav-div {
+    display: flex;
+    margin: 2%;
+}
+.prev-button-div{
+    flex: 1;
+    text-align: left;
+    margin: 1%;
+}
+.next-button-div{
+    flex: 1;
+    text-align: right;
+    margin: 1%;
+    margin-right: 2%;
+}
+
+.footer-div {
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: fixed;
+    bottom: 0;
+}

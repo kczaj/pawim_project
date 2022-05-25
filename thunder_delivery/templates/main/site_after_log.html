@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Thunder Delivery</title>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.min.js"></script>
+    <link href="/styles/main/after_log.css" rel="stylesheet" type="text/css">
+    <script src="/scripts/main/afterLog.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img src="/images/main/logo.svg" alt="logo"/>
+    </div>
+    <nav>
+        <p>Welcome {{username}}!</p>
+    </nav>
+    <div class="nav-button">
+        <button id="sign-out-button" type="button" class="credentials-button">Sign out</button>
+    </div>
+</header>
+<section class="first-para">
+    <div class="margin"></div>
+    <div id="form-reg" class="package-list">
+        <h1 class="register-title">YOUR PACKAGES</h1>
+        <button id="new-package-button" type="button" class="new-package-button">
+            NEW PACKAGE
+        </button>
+        <div class="table-div" id="table-div">
+        </div>
+        <div class="nav-div" id="nav-div">
+        </div>
+    </div>
+    <div class="margin"></div>
+</section>
+
+<footer>
+    <div class="footer-div">
+        <p class="footer-inline left">&copy; 2020 Jakub Czajka</p>
+    </div>
+</footer>
+</body>
+
+</html>

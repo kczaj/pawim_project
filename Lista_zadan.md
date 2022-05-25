@@ -1,0 +1,15 @@
+### Lista zadań
+- [ ] OAuth 2.0
+    - [ ] Aplikacja główna
+    - [ ] Aplikacja kuriera
+    - [ ] Modyfikacja aplikacji tak by używała danych z OAutha
+- [ ] WebSockety
+    - [X] Aktualizacja stanu paczek
+        - [X] Odebranie
+        - [X] Włożenie do paczkomatu
+        - [X] Wyciągnięcie z paczkomatu
+    - [X] Aktualizacja w:
+        - [X] wszystkie okna przeglądarki gdzie użytkownik jest zalogowany
+        - [X] wszystkie okna przeglądarki gdzie kurier jest zalogowany
+- [ ] Tag FINAL_RELEASE_P4
+- [ ] Poprawienie sposobu zliczania liczby paczek na stronie

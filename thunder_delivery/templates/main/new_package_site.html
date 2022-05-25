@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Thunder Delivery</title>
+    <meta charset="utf-8">
+    <link href="/styles/main/new_package.css" rel="stylesheet" type="text/css">
+    <script src="/scripts/main/newPackage.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <img src="/images/main/logo.svg" alt="logo"/>
+    </div>
+    <nav>
+        <p>Welcome {{username}}!</p>
+    </nav>
+    <div class="nav-button">
+        <button type="button" class="credentials-button" id="sign-out-button">Sign out</button>
+    </div>
+</header>
+<section class="register">
+    <div class="margin"></div>
+    <div id="form-reg" class="form-reg">
+        <h1 class="register-title">NEW PACKAGE</h1>
+        <div class="registration-form" id="registration-form">
+            <h2 class="sub-title">SENDER</h2>
+            <input id="name_sender" type="text" name="name" placeholder="NAME"/>
+            <input id="surname_sender" type="text" name="surname" placeholder="SURNAME"/>
+            <input id="street_sender" type="text" name="street" placeholder="STREET"/>
+            <input id="number_sender" type="text" name="number" placeholder="NUMBER"/>
+            <input id="code_sender" type="text" name="code" placeholder="POSTAL CODE"/>
+            <input id="phone_number_sender" type="text" name="phone-number" placeholder="PHONE NUMBER"/>
+            <h2 class="sub-title">RECEIVER</h2>
+            <input id="name_receiver" type="text" name="name" placeholder="NAME"/>
+            <input id="surname_receiver" type="text" name="surname" placeholder="SURNAME"/>
+            <input id="street_receiver" type="text" name="street" placeholder="STREET"/>
+            <input id="number_receiver" type="text" name="number" placeholder="NUMBER"/>
+            <input id="code_receiver" type="text" name="code" placeholder="POSTAL CODE"/>
+            <input id="phone_number_receiver" type="text" name="phone-number" placeholder="PHONE NUMBER"/>
+            <h2 class="sub-title">APPEARANCE</h2>
+            <input id="image_receiver" type="file" name="surname" accept="image/png, image/jpeg"/>
+        </div>
+        <button id="create-button" type="button" class="create-button">
+            CREATE
+        </button>
+    </div>
+    <div class="margin"></div>
+</section>
+
+<footer>
+    <div class="footer-div">
+        <p class="footer-inline left">&copy; 2020 Jakub Czajka</p>
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #212529;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    min-width: 100px;
+    max-width: 530px;
+    padding: 3%;
+    margin: auto;
+    display: block;
+    background: white;
+}
+.sign-in-btn{
+    padding: 5%;
+}
+.sign-in-h{
+    padding: 2%;
+}
+.img{
+    padding: 2%;
+}

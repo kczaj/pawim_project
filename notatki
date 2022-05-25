@@ -1,0 +1,12 @@
+main_app:
+    rejestracja - sprawdzenie dostępności loginu, poprawność danych, request do utworzenia użytkownika, jak stworzono dostajemy JWT i 
+        sessionID (sessionID do poruszania się po main_app)
+    logowanie - sprawdzamy login i hasło, jak dobrze to zwracamy JWT i sessionID, 
+    wylogowanie - usuwa ciastko i JWT
+
+db_app:
+    pobieranie
+    dodawanie listow
+    tworzenie listow 
+    upload
+    

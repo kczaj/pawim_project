@@ -1,0 +1,12 @@
+flask
+redis
+pyopenssl
+flask-jwt-extended
+fpdf
+flask-cors
+flask-restplus
+Werkzeug==0.16.1
+flask-socketio
+eventlet
+requests
+authlib

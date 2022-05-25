@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#24252A;
+    color: white;
+    padding: 0;
+}
+header{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    align-items: center;
+    height: 13vh;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 15px;
+}
+.logo{
+
+    flex: 3;
+}
+.nav-button{
+    flex: 0.5;
+}
+.credentials-button{
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.form-reg{
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    padding: 3%;
+}
+.margin{
+    flex: 2;
+}
+.register{
+    display: flex;
+    height: 90%;
+    color: black;
+    justify-content: center;
+}
+.register-title{
+    color: #0B7FD3;
+    font-size: x-large;
+}
+.alert-text{
+    color: red;
+    background-color: rgba(255,136,136,0.7);
+    border-left: 4px solid red;
+    margin-bottom: 3%;
+}
+.success-text{
+    color: green;
+    background-color: rgba(	142, 255, 150,0.7);
+    border-left: 4px solid green;
+    margin-bottom: 3%;
+}
+.sub-title{
+    color: #0B7FD3;
+    font-size: large;
+}
+.registration-form{
+    display: grid;
+}
+input{
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    margin: 3% 0;
+    border-bottom: 1px solid #0B7FD3;
+}
+.create-button{
+    background: #0B7FD3;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    height: 35%;
+    margin: 3%;
+}
+
+.credentials-button:hover, .create-button:hover{
+    opacity: 70%;
+}
+
+.footer-div {
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: fixed;
+    bottom: 0;
+}
